@@ -41,6 +41,8 @@ Then...
 
 200 URLs per day
 
+# Инструкция на русском:
+
 **1. Подключение Indexing API к Google Search Console: создание сервисного аккаунта и JSON-ключа**
 
 Первым делом настроим доступ в консоли Indexing API. Переходим на [Google Cloud Platform](https://console.cloud.google.com/welcome?organizationId=0&supportedpurview=project) и создаём там проект.
@@ -81,7 +83,6 @@ Then...
 
 [9](img/9.webp)
 
-Ключ в текстовом редакторе.
 Позже ключ будет применяться для запуска скрипта.
 
 **2. Настройка скрипта**
@@ -120,7 +121,7 @@ Then...
 
 [16](img/16.webp)
 
-Теперь нужно включить Index API в нашем проекте. Переходим по ссылке и выбираем сервисный аккаунт, включая API.
+Теперь нужно включить [Index API](https://console.developers.google.com/apis/api/indexing.googleapis.com/overview?pli=1) в нашем проекте. Переходим по ссылке и выбираем сервисный аккаунт, включая API.
 
 [17](img/17.webp)
 
@@ -131,7 +132,7 @@ Then...
 [18](img/18.webp)
 
 Сохраняем в текстовый документ url которые надо проиндексировать.
-Для следующих шагов нам нужно найти и скачать исходный код node.js по ссылке.
+Для следующих шагов нам нужно найти и скачать исходный код [node.js по ссылке](https://nodejs.org/en/download/).
 
 Далее вызываем командную строку и заходим в папку google-indexing-api-bulk-master, скачанную ранее. У нас эта папка лежит по пути Desktop — Roots — google-indexing-api-bulk-master.
 
